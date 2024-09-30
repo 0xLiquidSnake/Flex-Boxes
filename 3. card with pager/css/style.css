@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D3D3D3;
+}
+
+
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 510px;
+    text-align: center; 
+    margin: 100px  auto;
+    background-color: azure;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    flex: 3;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 0 20px;
+    font-family: monospace;
+}
+
+p {
+    flex: 2;
+    padding: 0px;
+    font-size: 16px;
+    margin-top: 0px;
+    color: brown;
+    font-family: monospace;
+}
+
+footer {
+    margin: 10px;
+    padding: 10px;
+}
+footer a {
+    flex: 1;
+    align-self: flex-end;
+    font-size: 30px;
+    text-decoration: none;
+    color: grey;
+    margin: 30px 5px;
+}
+
+footer a:first-child{
+    color: rgb(0, 0, 0);
+}
